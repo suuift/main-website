@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/suuiftco/repositories/main-website
+    - /bin/cp -R /suuift/main-website $DEPLOYPATH
